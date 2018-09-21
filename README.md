@@ -25,11 +25,17 @@ Auto install script for TimeIsMoney (TIM)
 
 # STEP 2 - Setting up your Linux VPS (Read all instructions and follow prompts closely)
 
-1. Connect to your linux vps AS ROOT (AWS USERS USE sudo -i TO LOGIN AS ROOT), copy and paste the following line into your VPS.  Double click to highlight the entire line, copy it, and right click into Putty or Shift + Insert to paste.
-```
-cd && sudo apt-get install p7zip-full -y && sudo apt-get -y install git && sudo git clone https://github.com/LEGENDSTER/timenode.git && cd timenode/ && sudo bash install.sh && cd 
+1. Connect to your linux vps AS ROOT (AWS USERS USE sudo -i TO LOGIN AS ROOT), copy and paste the following line into your VPS.  Copy paste each line one by one into your console
 
-```
+sudo apt-get install -f git 
+
+sudo git clone https://github.com/LEGENDSTER/timenode.git
+
+cd timenode 
+
+sudo bash install.sh && cd 
+
+
 2. follow the prompts carefully!
 
 # STEP 3 - Editing your Windows Config File
