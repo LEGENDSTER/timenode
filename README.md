@@ -36,8 +36,6 @@ cd timenode
 sudo bash install.sh && cd 
 
 
-2. follow the prompts carefully!
-
 # STEP 3 - Editing your Windows Config File
 
 1. Open your wallet
