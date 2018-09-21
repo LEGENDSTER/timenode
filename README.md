@@ -7,7 +7,6 @@ Auto install script for TimeIsMoney (TIM)
 
 # This guide is meant for setting up a HOT/COLD SETUP WITH LINUX.
 
-# Use this script on a fresh install of Ubuntu 16.04 - MUST BE 16.04 x64
 
 # STEP 1 - Sending Collateral Coins
 
